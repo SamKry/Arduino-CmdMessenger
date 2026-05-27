@@ -9,6 +9,12 @@ VB# Build status: [![VB Build status](https://ci.appveyor.com/api/projects/statu
 
 Arduino Build status: [![Build Status](https://api.travis-ci.org/thijse/Arduino-CmdMessenger.svg?branch=master&dfff)](https://travis-ci.org/thijse/Arduino-CmdMessenger) 
 
+## 🆕 Fork changes
+
+This fork includes a small fix to align with newer compiler warnings:
+
+- Fix invalid conversion from `char` to `char*` by returning `nullptr`.
+
 
 ## Introduction
 
